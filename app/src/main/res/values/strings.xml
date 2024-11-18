@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Third Eye</string>
+    <string name="app_name">BlindNav</string>
     <string name="image_prompt">Please provide a brief summary of the following image. Include key details such as the main subjects or objects, the setting or context, and any notable features or actions. Keep the description short and to the point.</string>
-    <string name="describe_image">Describe Image</string>
-    <string name="image_to_text">Image To Text</string>
-    <string name="custom_prompt">Custom Prompt</string>
-    <string name="custom_prompt_image">Custom Prompt With Image</string>
+    <string name="describe_image"> Image Description</string>
+    <string name="image_to_text">Image to Text Converter</string>
+    <string name="custom_prompt">Create Text Prompt</string>
+    <string name="custom_prompt_image">Text Prompt with Image Input</string>
     <string name="swipe_up">Swipe Up</string>
     <string name="swipe_down">Swipe Down</string>
     <string name="swipe_left">Swipe Left</string>
     <string name="swipe_right">Swipe Right</string>
-    <string name="swipe_here">Swipe Here</string>
+    <string name="SWIPE">Swipe Anywhere</string>
     <string name="language_is_not_supported">Language is not supported</string>
     <string name="error_text_to_speech">Error text to speech</string>
     <string name="swipe_anywhere_on_the_bottom_of_the_screen_to_activate">Swipe anywhere on the bottom of the screen to activate voice</string>

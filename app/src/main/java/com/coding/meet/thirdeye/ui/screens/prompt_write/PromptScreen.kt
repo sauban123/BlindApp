@@ -52,10 +52,6 @@ import com.coding.meet.thirdeye.util.pauseVoice
 import com.coding.meet.thirdeye.util.showToast
 import com.coding.meet.thirdeye.viewmodels.MainViewModel
 
-/**
- * Created 06-08-2024 at 06:59 pm
- */
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PromptScreen(mainViewModel: MainViewModel) {

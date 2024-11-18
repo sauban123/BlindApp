@@ -21,9 +21,7 @@ import com.coding.meet.thirdeye.ui.theme.boxBackgroundColor
 import com.coding.meet.thirdeye.ui.theme.boxBorderColor
 import com.coding.meet.thirdeye.ui.theme.textColor
 
-/**
- * Created 28-07-2024 at 06:56 pm
- */
+
 
 @Composable
 fun RowScope.ToolItem(tools: Tools, mainViewModel: MainViewModel,modifier: Modifier = Modifier) {

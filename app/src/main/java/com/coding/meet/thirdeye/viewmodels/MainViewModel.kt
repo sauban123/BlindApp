@@ -5,9 +5,6 @@ import androidx.lifecycle.ViewModel
 import com.coding.meet.thirdeye.util.Tools
 import kotlinx.coroutines.flow.*
 
-/**
- * Created 29-07-2024 at 11:21 am
- */
 
 class MainViewModel : ViewModel() {
 

@@ -17,9 +17,6 @@ import org.koin.mp.KoinPlatform
 import java.util.Locale
 import kotlin.math.abs
 
-/**
- * Created 29-07-2024 at 10:28 am
- */
 
 fun showToast(message: String, duration: Int = Toast.LENGTH_LONG) {
     val context: Context = KoinPlatform.getKoin().get()

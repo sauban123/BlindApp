@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -30,10 +31,6 @@ import com.coding.meet.thirdeye.ui.theme.boxBorderColor
 import com.coding.meet.thirdeye.ui.theme.textColor
 import com.coding.meet.thirdeye.util.askSpeechInput
 import com.coding.meet.thirdeye.util.detectSwipe
-
-/**
- * Created 29-07-2024 at 12:12 pm
- */
 
 @Composable
 fun ColumnScope.BottomSection(
@@ -65,17 +62,17 @@ fun ColumnScope.BottomSection(
                     },
                 )
             }
-            .border(5.dp, boxBorderColor, RoundedCornerShape(10.dp))
-            .clip(RoundedCornerShape(10.dp))
+            .border(3.dp, boxBorderColor, RoundedCornerShape(30.dp))
+            .clip(RoundedCornerShape(30.dp))
             .background(boxBackgroundColor),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = stringResource(R.string.swipe_here),
-            fontWeight = FontWeight.Bold,
+        Text(text = stringResource(R.string.SWIPE),
+            fontWeight = FontWeight.Normal,
             textAlign = TextAlign.Center,
             lineHeight = 35.sp,
-            color = textColor,
-            fontSize = 40.sp)
+            color = Color.Red,
+            fontSize = 35.sp)
     }
 }

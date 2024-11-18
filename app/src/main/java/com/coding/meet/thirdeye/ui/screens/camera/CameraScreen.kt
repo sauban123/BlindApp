@@ -32,9 +32,7 @@ import com.coding.meet.thirdeye.util.pauseVoice
 import com.coding.meet.thirdeye.util.showToast
 import com.coding.meet.thirdeye.viewmodels.MainViewModel
 
-/**
- * Created 30-07-2024 at 06:05 pm
- */
+
 
 @Composable
 fun CameraScreen(mainViewModel: MainViewModel) {

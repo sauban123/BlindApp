@@ -31,10 +31,6 @@ import com.coding.meet.thirdeye.util.showToast
 import com.coding.meet.thirdeye.viewmodels.MainViewModel
 import kotlinx.coroutines.delay
 
-/**
- * Created 28-07-2024 at 06:28 pm
- */
-
 
 @Composable
 fun HomeScreen(mainViewModel: MainViewModel, activity: Activity) {

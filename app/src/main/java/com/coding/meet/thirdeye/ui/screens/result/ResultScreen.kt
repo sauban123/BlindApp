@@ -38,10 +38,6 @@ import com.coding.meet.thirdeye.util.pauseVoice
 import com.coding.meet.thirdeye.viewmodels.MainViewModel
 import com.coding.meet.thirdeye.viewmodels.ToolViewModel
 
-/**
- * Created 31-07-2024 at 10:40 am
- */
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ResultScreen(mainViewModel: MainViewModel, toolViewModel: ToolViewModel) {

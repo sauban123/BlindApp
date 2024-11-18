@@ -8,9 +8,7 @@ import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
 import kotlinx.coroutines.launch
 
-/**
- * Created 28-07-2024 at 05:08 pm
- */
+
 
 class ToolViewModel : ViewModel() {
     private val geminiModel = GenerativeModel(

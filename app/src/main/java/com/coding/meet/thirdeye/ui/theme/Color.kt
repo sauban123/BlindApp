@@ -11,7 +11,7 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 // theme
-val mainBackgroundColor = Color(0xFFD4ECDD)
-val boxBackgroundColor = Color(0xFF345B63)
-val boxBorderColor = Color(0xFF152D35)
-val textColor = Color(0xFFFFFFFF)
+val mainBackgroundColor = Color(0xFFFFFFFF)
+val boxBackgroundColor = Color(0xFFA89D9D)
+val boxBorderColor = Color(0xFF968F8F)
+val textColor = Color(0xFF000000)

@@ -4,10 +4,6 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.*
 
 
-/**
- * Created 28-07-2024 at 06:44 pm
- */
-
 
 
 enum class SwipeType {
